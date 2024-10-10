@@ -19,23 +19,23 @@ Nota promedio: 9.00
 Alirio no le corresponde beca */
 
 
-import Cl_becado from "./Cl_becado";
+import Cl_becado from "./Cl_becado.js";
 
 let becado = new Cl_becado ("Mary", 132, 8, 16.50);
-let becado2 = new ("Alirio", 315, 35, 9.00);
+let becado2 = new Cl_becado("Alirio", 315, 35, 9.00);
 
 let salida=document.getElementById("salida");
 salida.innerHTML= `
- Nombre del estudiante: ${becado.nomnbre} 
+ Nombre del estudiante: ${becado.nombre} 
 <br> Acumulado de notas: ${becado.acumulado} 
 <br> Cantidad de materias:${becado.materias}
 <br>Notas promedio: ${becado.promedio}
-<br>${becado.nombre} ${becado.recibe()}'
+<br>${becado.nombre} ${becado.recibe()}
 <br><br>
- Nombre del estudiante: ${becado2.nomnbre} 
+ Nombre del estudiante: ${becado2.nombre} 
 <br> Acumulado de notas: ${becado2.acumulado} 
 <br> Cantidad de materias:${becado2.materias}
 <br>Notas promedio: ${becado2.promedio}
-<br>${becado2.nombre} ${becado2.recibe()}'
+<br>${becado2.nombre} ${becado2.recibe()}
 `;
 
