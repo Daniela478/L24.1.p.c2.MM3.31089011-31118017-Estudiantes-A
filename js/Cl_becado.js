@@ -1,5 +1,5 @@
 import Cl_Estudiante from "./CL_Estudiante";
-export default class Cl_becado extends Cl_Estudiante {
+export default class Cl_Becado extends Cl_Estudiante {
 constructor (nombre, acumulado ,materias){
     super(nombre, acumulado ,materias)
 }
