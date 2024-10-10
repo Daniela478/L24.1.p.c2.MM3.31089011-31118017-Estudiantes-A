@@ -18,3 +18,18 @@ Cantidad de materias: 35
 Nota promedio: 9.00
 Alirio no le corresponde beca */
 
+
+import Cl_becado from "./Cl_becado";
+
+let becado = new Cl_becado ("Mary", 132, 8, 16.50);
+let becado2 = new ("Alirio", 315, 35, 9.00);
+
+let salida=document.getElementById("salida");
+salida.innerHTML= `
+ Nombre del estudiante: ${becado.nomnbre} 
+<br> Acumulado de notas: ${becado.acumulado} 
+<br> Cantidad de materias:${becado.materias}
+<br>Notas promedio: ${becado.promedio}
+<br>${becado.nombre} ${becado.recibe()}'
+`
+
