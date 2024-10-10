@@ -31,5 +31,11 @@ salida.innerHTML= `
 <br> Cantidad de materias:${becado.materias}
 <br>Notas promedio: ${becado.promedio}
 <br>${becado.nombre} ${becado.recibe()}'
-`
+<br><br>
+ Nombre del estudiante: ${becado2.nomnbre} 
+<br> Acumulado de notas: ${becado2.acumulado} 
+<br> Cantidad de materias:${becado2.materias}
+<br>Notas promedio: ${becado2.promedio}
+<br>${becado2.nombre} ${becado2.recibe()}'
+`;
 
