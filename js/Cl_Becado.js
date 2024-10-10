@@ -5,9 +5,9 @@ constructor (nombre, acumulado ,materias){
 }
     recibe(){
     if(this.promedio() >= 15)
-     return "Le corresponde una beca de" +30;
+     return "Le corresponde una beca de: " +30 + "$";
     else if(this.promedio() >=10) 
-        return "Le corresponde una beca de" + 20;
+        return "Le corresponde una beca de: " + 20 + "$";
     else 
         return "No le corresponde beca";
     }
