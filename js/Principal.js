@@ -21,8 +21,8 @@ Alirio no le corresponde beca */
 
 import Cl_Becado from "./Cl_becado.js";
 
-let becado = new Cl_Becado ("Mary", 132, 8, 16.50);
-let becado2 = new Cl_Becado("Alirio", 315, 35, 9.00);
+let becado = new Cl_Becado ("Mary", 132, 8);
+let becado2 = new Cl_Becado("Alirio", 315, 35);
 
 let salida=document.getElementById("salida");
 salida.innerHTML= `
