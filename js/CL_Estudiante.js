@@ -21,7 +21,7 @@ set materias(m){
     this._materias = m;
 }
 get materias(){
-    return this_materias;
+    return this._materias;
 }
 promedio(){
     return this.acumulado / this.materias;
